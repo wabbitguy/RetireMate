@@ -1,18 +1,4 @@
-#include <WiFi.h>
-#include <DNSServer.h>  //https://github.com/esp8266/Arduino/tree/master/libraries/DNSServer
-#include <ESPmDNS.h>
-#include <ArduinoOTA.h>
-#include <WiFiManager.h>  //https://github.com/tzapu/WiFiManager
-#include <time.h>
-#include <SPI.h>
-#include <SD.h>
-#include <Timezone.h>
-#include <TFT_eSPI.h>
-#include <TJpg_Decoder.h>
-#include <settings.h>
-#include <WebServer.h>
-#include <FS.h>
-#include "LittleFS.h"
+#include "settings.h"
 
 //#define FORMAT_LittleFS  // Wipe SPIFFS and all files!
 

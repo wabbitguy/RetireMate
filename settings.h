@@ -1,3 +1,18 @@
+#include <WiFi.h>
+#include <DNSServer.h>  //https://github.com/esp8266/Arduino/tree/master/libraries/DNSServer
+#include <ESPmDNS.h>
+#include <ArduinoOTA.h>
+#include <WiFiManager.h>  //https://github.com/tzapu/WiFiManager
+#include <time.h>
+#include <SPI.h>
+#include <SD.h>
+#include <Timezone.h>
+#include <TFT_eSPI.h>
+#include <TJpg_Decoder.h>
+#include <WebServer.h>
+#include <FS.h>
+#include "LittleFS.h"
+
 //Australia Eastern Time Zone (Sydney, Melbourne)
 TimeChangeRule aEDT = { "AEDT", First, Sun, Oct, 2, 660 };  //UTC + 11 hours
 TimeChangeRule aEST = { "AEST", First, Sun, Apr, 3, 600 };  //UTC + 10 hours
