@@ -13,6 +13,8 @@ There are at least three of 2.8" CYD boards, the one I am using is based on the 
 
 For programming the CYD, I used the Micro USB connector. The USB C connector didn't seem to do anything. According to things I've read there are some missing resistors that require a USB A to USB C cable, which I used and the port still does nothing. Keep in mind the CYD I used is the ST7789 driver whereas most referenced one prior uses the ILI9341 driver.
 
+I've included the User_Setup.h file as well so you can put it in the TFT_eSPI library to save yourself time of setting it up yourself.
+
 <h3>Using RetireMate</h3>
 
 The only code change to make is in the TimeZone setting in the settings.h file. Use it to match your timezone. The default values RetireMate uses can be configured from any web browser (it was designed with an iPhone sized editing page), thus the code doesn't need any editing unless you really want to.
